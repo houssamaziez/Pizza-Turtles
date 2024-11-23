@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Restaurant Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-amber-600">Pizza Turtles</h3>
+            <h3 className="text-2xl font-bold text-amber-600">La Maison</h3>
             <p className="text-gray-400">
               Experience the finest French cuisine in an elegant atmosphere.
             </p>
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Pizza Turtles. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} La Maison. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -42,7 +42,7 @@ const About = () => {
             Our Story
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 max-w-2xl mx-auto">
-            Since 1970, Pizza Turtles has been serving exceptional French cuisine, 
+            Since 1970, La Maison has been serving exceptional French cuisine, 
             combining traditional techniques with modern innovation.
           </motion.p>
         </motion.div>
@@ -56,7 +56,7 @@ const About = () => {
           <motion.div variants={itemVariants} className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-900">A Legacy of Excellence</h3>
             <p className="text-gray-600">
-              Founded by renowned Chef Pierre Dubois, Pizza Turtles has established itself as 
+              Founded by renowned Chef Pierre Dubois, La Maison has established itself as 
               a cornerstone of French gastronomy. Our commitment to quality and authenticity 
               has earned us numerous accolades and a loyal following of food enthusiasts.
             </p>

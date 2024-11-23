@@ -35,7 +35,7 @@ const Header = () => {
 >
   <img 
     src="https://chocolate-frog-334123.hostingersite.com/images/bt1ahjmLQ7ipHKiZ3eUf_sfHV3Dpa4k0wHZ29-removebg-preview.png" 
-    alt="Pizza Turtles Logo" 
+    alt="La Maison Logo" 
     className="w-8 h-8"
   />
   <span className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>

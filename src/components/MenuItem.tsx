@@ -69,7 +69,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, price, description, ingredien
               <Heart className="w-5 h-5" fill={isItemFavorite ? "currentColor" : "none"} />
             </button>
           </div>
-          <span className="text-lg font-medium text-amber-600">${price}</span>
+          <span className="text-lg font-medium text-amber-600">{price} DA</span>
         </div>
         <p className="text-gray-600 mb-4">{description}</p>
         <div>
@@ -83,7 +83,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, price, description, ingredien
                 {ingredient}
               </span>
             ))}
-          </div>
+          </div>P
         </div>
       </div>
     </div>

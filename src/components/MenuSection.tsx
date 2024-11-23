@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MenuItem from './MenuItem';
 
 const categories = [
-  'Starters',
+  'Pizza',
   'Main Course',
   'Seafood',
   'Desserts',
@@ -10,15 +10,15 @@ const categories = [
 ];
 
 const menuItems = {
-  'Starters': [
+  'Pizza': [
     {
-      name: "Soupe à l'Oignon",
-      price: '14.50',
+      name: "Pizza",
+      price: '120',
       description: 'Classic French onion soup topped with melted Gruyère cheese and crusty baguette.',
       ingredients: ['Caramelized Onions', 'Beef Broth', 'Gruyère', 'Baguette'],
       images: [
-        'https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&q=80',
-        'https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80'
+        'https://chocolate-frog-334123.hostingersite.com//images/56947072_2184185985008805_730063832373788672_n%20(1).jpg',
+        'https://chocolate-frog-334123.hostingersite.com//images/56947072_2184185985008805_730063832373788672_n%20(1).jpg'
       ]
     },
     {
